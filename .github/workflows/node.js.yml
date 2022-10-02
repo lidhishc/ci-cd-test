@@ -25,4 +25,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: chmod +x ./script.sh
-      - run: ./script.sh
+      - run: bash ./script.sh
