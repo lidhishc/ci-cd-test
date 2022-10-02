@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
     res.send('Hi lidhis')
 })
 
-app.listen(3000,(err)=>{
+app.listen(PORT,(err)=>{
     if(err){
         console.log(err);
     }
